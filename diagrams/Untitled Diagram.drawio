@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T15:23:53.239Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="b2zGP_kMFQdyBCjOh6Lb" version="14.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-27T15:35:37.263Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="mmuNd_kcBroYVkDmFWYs" version="14.7.2" type="github">
   <diagram id="HU-wvWsLhEqsbiU42xJP" name="Page-1">
     <mxGraphModel dx="1538" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -122,12 +122,12 @@
           <mxGeometry x="252" y="370" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="eYZsBUrVpp3t5e5wHuMy-39" value="Produce log of limit analysis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="412" y="350" width="66" height="20" as="geometry" />
+          <mxGeometry x="404" y="350" width="66" height="20" as="geometry" />
         </mxCell>
         <mxCell id="eYZsBUrVpp3t5e5wHuMy-40" value="Produce log of transaction analysis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="565" y="375" width="62" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="eYZsBUrVpp3t5e5wHuMy-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="eYZsBUrVpp3t5e5wHuMy-41" target="eYZsBUrVpp3t5e5wHuMy-44">
+        <mxCell id="eYZsBUrVpp3t5e5wHuMy-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eYZsBUrVpp3t5e5wHuMy-41" target="eYZsBUrVpp3t5e5wHuMy-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eYZsBUrVpp3t5e5wHuMy-41" value="logs-service" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
@@ -143,16 +143,19 @@
           <mxGeometry x="412" y="490" width="56" height="20" as="geometry" />
         </mxCell>
         <mxCell id="eYZsBUrVpp3t5e5wHuMy-44" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="510" y="530" width="42" height="60" as="geometry" />
+          <mxGeometry x="382" y="650" width="42" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eYZsBUrVpp3t5e5wHuMy-46" value="Registro dos logs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="448" y="575" width="56" height="20" as="geometry" />
+        <mxCell id="eYZsBUrVpp3t5e5wHuMy-46" value="Register of logs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="406" y="613" width="56" height="20" as="geometry" />
         </mxCell>
         <mxCell id="eYZsBUrVpp3t5e5wHuMy-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eYZsBUrVpp3t5e5wHuMy-47" target="eYZsBUrVpp3t5e5wHuMy-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eYZsBUrVpp3t5e5wHuMy-47" value="customer-notifications" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="90" y="400" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eYZsBUrVpp3t5e5wHuMy-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eYZsBUrVpp3t5e5wHuMy-50" target="eYZsBUrVpp3t5e5wHuMy-53">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eYZsBUrVpp3t5e5wHuMy-50" value="internal-notifications" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="670" y="400" width="70" height="70" as="geometry" />
@@ -168,11 +171,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="eYZsBUrVpp3t5e5wHuMy-51" value="credit-card-service" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="eYZsBUrVpp3t5e5wHuMy-51" value="customer-notification-service" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="523" width="90" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="eYZsBUrVpp3t5e5wHuMy-53" value="logs-service" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="520" width="90" height="80" as="geometry" />
+        <mxCell id="eYZsBUrVpp3t5e5wHuMy-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="eYZsBUrVpp3t5e5wHuMy-53" target="eYZsBUrVpp3t5e5wHuMy-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="570" />
+              <mxPoint x="560" y="453" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eYZsBUrVpp3t5e5wHuMy-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eYZsBUrVpp3t5e5wHuMy-53" target="eYZsBUrVpp3t5e5wHuMy-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eYZsBUrVpp3t5e5wHuMy-53" value="internal-notification-service" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="662.5" y="530" width="85" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eYZsBUrVpp3t5e5wHuMy-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eYZsBUrVpp3t5e5wHuMy-57" target="eYZsBUrVpp3t5e5wHuMy-1">
           <mxGeometry relative="1" as="geometry" />
@@ -219,6 +233,18 @@
         </mxCell>
         <mxCell id="eYZsBUrVpp3t5e5wHuMy-76" value="Produce notifications to internal services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="725" y="352" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eYZsBUrVpp3t5e5wHuMy-81" value="Produce log of fraud or alert notifications" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="565" y="520" width="62" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eYZsBUrVpp3t5e5wHuMy-82" value="Consume notifications to internal services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="725" y="490" width="55" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eYZsBUrVpp3t5e5wHuMy-84" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="665" y="670" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eYZsBUrVpp3t5e5wHuMy-87" value="Send notification to internal services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="630" width="65" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
